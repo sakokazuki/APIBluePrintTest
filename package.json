@@ -1,0 +1,13 @@
+{
+  "name": "apiblueprint",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev" : "aglio -i example.md --server",
+    "build" : "aglio -i example.md -o example.html"
+  },
+  "devDependencies": {
+    "aglio": "^2.3.0"
+  }
+}
